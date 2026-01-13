@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { SiteContent, Language, loadContent } from "./lib/siteContent";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 
@@ -137,9 +138,12 @@ export default function LandingPage() {
                 <p className="text-gray-600 mb-4">
                   {currentLang.products.shoes.description}
                 </p>
-                <button className="w-full py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold">
+                <Link
+                  href="/checkout/shoes"
+                  className="block w-full py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold text-center"
+                >
                   {currentLang.ctaText}
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -162,9 +166,12 @@ export default function LandingPage() {
                 <p className="text-gray-600 mb-4">
                   {currentLang.products.tshirt.description}
                 </p>
-                <button className="w-full py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold">
+                <Link
+                  href="/checkout/tshirt"
+                  className="block w-full py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold text-center"
+                >
                   {currentLang.ctaText}
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -187,9 +194,12 @@ export default function LandingPage() {
                 <p className="text-gray-600 mb-4">
                   {currentLang.products.hoodie.description}
                 </p>
-                <button className="w-full py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold">
+                <Link
+                  href="/checkout/hoodie"
+                  className="block w-full py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold text-center"
+                >
                   {currentLang.ctaText}
-                </button>
+                </Link>
               </div>
             </div>
           </div>
