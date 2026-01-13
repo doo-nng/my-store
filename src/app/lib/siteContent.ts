@@ -168,7 +168,7 @@ export const defaultContent: SiteContent = {
       productsTitle: "인기 제품",
       finalCtaTitle: "지금 바로 시작하세요",
       finalCtaDescription: "특별한 스타일과 품질을 경험해보세요. 지금 가입하시면 첫 주문 10% 할인 쿠폰을 드립니다!",
-      finalCtaButton: "지금 가입하기",
+      finalCtaButton: "브랜드 알아보기",
       products: {
         shoes: {
           image: {
@@ -287,7 +287,7 @@ export const defaultContent: SiteContent = {
       productsTitle: "Popular Products",
       finalCtaTitle: "Get Started Today",
       finalCtaDescription: "Experience exceptional style and quality. Sign up now and get a 10% discount coupon on your first order!",
-      finalCtaButton: "Sign Up Now",
+      finalCtaButton: "Learn About Brand",
       products: {
         shoes: {
           image: {
@@ -406,7 +406,7 @@ export const defaultContent: SiteContent = {
       productsTitle: "人気商品",
       finalCtaTitle: "今すぐ始めましょう",
       finalCtaDescription: "特別なスタイルと品質を体験してください。今登録すると、初回注文10%割引クーポンをプレゼントします！",
-      finalCtaButton: "今すぐ登録",
+      finalCtaButton: "ブランドについて",
       products: {
         shoes: {
           image: {
