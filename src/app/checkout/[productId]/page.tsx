@@ -12,6 +12,7 @@ export default function CheckoutPage() {
   const productId = params.productId as string;
   const [language, setLanguage] = useState<Language>("ko");
   const [content, setContent] = useState<SiteContent | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -223,9 +224,10 @@ export default function CheckoutPage() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full py-4 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold text-lg"
+                  disabled={isLoading}
+                  className="w-full py-4 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  결제하기
+                  {isLoading ? "처리 중..." : "결제하기"}
                 </button>
               </div>
             </form>
