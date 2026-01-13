@@ -32,7 +32,7 @@ export default function LandingPage() {
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Section with Background Image */}
       <section className="relative text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
