@@ -90,7 +90,7 @@ export const defaultContent: SiteContent = {
       brandTitle: "My Store",
       brandDescription: "최고의 품질과 스타일을 제공하는 패션 브랜드",
       ctaText: "구매하기",
-      heroHeadline: "당신의 스타일을 완성하는 프리미엄 패션",
+      heroHeadline: "연습용 마케팅 패션 랜딩페이지 생성",
       heroSubheadline: "최고 품질의 의류와 액세서리로 일상에 특별함을 더하세요",
       heroCtaPrimary: "지금 쇼핑하기",
       heroCtaSecondary: "더 알아보기",
@@ -172,7 +172,7 @@ export const defaultContent: SiteContent = {
       products: {
         shoes: {
           image: {
-            src: "/images/shoes.jpg",
+            src: "/images/shoe-1.jpg",
             alt: "신발",
             width: 400,
             height: 400,
@@ -183,7 +183,7 @@ export const defaultContent: SiteContent = {
         },
         tshirt: {
           image: {
-            src: "/images/tshirt.jpg",
+            src: "/images/tshirt-1.jpg",
             alt: "티셔츠",
             width: 400,
             height: 400,
@@ -194,7 +194,7 @@ export const defaultContent: SiteContent = {
         },
         hoodie: {
           image: {
-            src: "/images/hoodie.jpg",
+            src: "/images/hoodie-1.jpg",
             alt: "후드",
             width: 400,
             height: 400,
@@ -209,7 +209,7 @@ export const defaultContent: SiteContent = {
       brandTitle: "My Store",
       brandDescription: "A fashion brand offering the best quality and style",
       ctaText: "Buy Now",
-      heroHeadline: "Premium Fashion That Completes Your Style",
+      heroHeadline: "Practice Marketing Fashion Landing Page",
       heroSubheadline: "Add something special to your everyday life with high-quality clothing and accessories",
       heroCtaPrimary: "Shop Now",
       heroCtaSecondary: "Learn More",
@@ -291,7 +291,7 @@ export const defaultContent: SiteContent = {
       products: {
         shoes: {
           image: {
-            src: "/images/shoes.jpg",
+            src: "/images/shoe-1.jpg",
             alt: "Shoes",
             width: 400,
             height: 400,
@@ -302,7 +302,7 @@ export const defaultContent: SiteContent = {
         },
         tshirt: {
           image: {
-            src: "/images/tshirt.jpg",
+            src: "/images/tshirt-1.jpg",
             alt: "T-Shirt",
             width: 400,
             height: 400,
@@ -313,7 +313,7 @@ export const defaultContent: SiteContent = {
         },
         hoodie: {
           image: {
-            src: "/images/hoodie.jpg",
+            src: "/images/hoodie-1.jpg",
             alt: "Hoodie",
             width: 400,
             height: 400,
@@ -328,7 +328,7 @@ export const defaultContent: SiteContent = {
       brandTitle: "My Store",
       brandDescription: "最高の品質とスタイルを提供するファッションブランド",
       ctaText: "購入する",
-      heroHeadline: "あなたのスタイルを完成させるプレミアムファッション",
+      heroHeadline: "練習用マーケティングファッションランディングページ作成",
       heroSubheadline: "最高品質の衣類とアクセサリーで日常に特別さを加えましょう",
       heroCtaPrimary: "今すぐショッピング",
       heroCtaSecondary: "詳しく見る",
@@ -410,7 +410,7 @@ export const defaultContent: SiteContent = {
       products: {
         shoes: {
           image: {
-            src: "/images/shoes.jpg",
+            src: "/images/shoe-1.jpg",
             alt: "靴",
             width: 400,
             height: 400,
@@ -421,7 +421,7 @@ export const defaultContent: SiteContent = {
         },
         tshirt: {
           image: {
-            src: "/images/tshirt.jpg",
+            src: "/images/tshirt-1.jpg",
             alt: "Tシャツ",
             width: 400,
             height: 400,
@@ -432,7 +432,7 @@ export const defaultContent: SiteContent = {
         },
         hoodie: {
           image: {
-            src: "/images/hoodie.jpg",
+            src: "/images/hoodie-1.jpg",
             alt: "フーディー",
             width: 400,
             height: 400,
